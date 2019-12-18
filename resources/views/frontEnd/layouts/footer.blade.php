@@ -98,7 +98,7 @@
                     <div class="single-widget">
                         <h2>クイックショップ</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">ジュエリー・アクセサリー</a></li>
+                            <li><a href="#">ジュエリ・アクセサリ</a></li>
                             <li><a href="#">アート・グッズ</a></li>
                             <li><a href="#">家具</a></li>
                             <li><a href="#">木製ハンディクラフト</a></li>

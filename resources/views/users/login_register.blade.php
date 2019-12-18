@@ -20,7 +20,7 @@
                     <input type="password" placeholder="パスワード" name="password" />
                     <span>
                         <input type="checkbox" class="checkbox">
-                        Keep me signed in
+                        パスワードを保持
                     </span>
                     <button type="submit" class="btn btn-default">ログイン</button>
                 </form>

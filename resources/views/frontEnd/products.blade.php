@@ -14,7 +14,7 @@
                 <?php
                 if ($byCate != "") {
                     $products = $list_product;
-                    echo '<h2 class="title text-center">カテゴリ ' . $byCate->name . '</h2>';
+                    echo '<h2 class="title text-center">カテゴリー ' . $byCate->name . '</h2>';
                 } else {
                     echo '<h2 class="title text-center">商品 の リスト</h2>';
                 }
@@ -28,7 +28,7 @@
                                 <a href="{{url('/product-detail',$product->id)}}"><img src="{{url('products/small/',$product->image)}}" alt="" /></a>
                                 <h2>$ {{$product->price}}</h2>
                                 <p>{{$product->p_name}}</p>
-                                <a href="{{url('/product-detail',$product->id)}}" class="btn btn-default add-to-cart">ビュ商品</a>
+                                <a href="{{url('/product-detail',$product->id)}}" class="btn btn-default add-to-cart">商品を見る</a>
                             </div>
                         </div>
                         <div class="choose">
