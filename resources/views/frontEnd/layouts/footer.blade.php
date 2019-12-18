@@ -66,7 +66,7 @@
                                 </div>
                             </a>
                             <p>バリ島 - インドネシア</p>
-                            <h2>Beach Spot</h2>
+                            <h2>ビーチスポット</h2>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">ジュエリー・アクセサリー</a></li>
                             <li><a href="#">アート・グッズ</a></li>
-                            <li><a href="#">ホームの家具</a></li>
+                            <li><a href="#">家具</a></li>
                             <li><a href="#">木製ハンディクラフト</a></li>
                             <li><a href="#">バッグ・財布</a></li>
                         </ul>
@@ -119,11 +119,11 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>MAIMAIについて</h2>
+                        <h2>MaiMai-Market</h2>
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">会社概要</a></li>
                             <li><a href="#">キャリア</a></li>
-                            <li><a href="#">店の場所</a></li>
+                            <li><a href="#">店舗所在地</a></li>
                             <li><a href="#">プログラム</a></li>
                             <li><a href="#">著作権</a></li>
                         </ul>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-sm-3 col-sm-offset-1">
                     <div class="single-widget">
-                        <h2>MAIMAIについて</h2>
+                        <h2>MaiMai-Marketについて</h2>
                         <form action="#" class="searchform">
                             <input type="text" placeholder="メールアドレス" />
                             <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>

@@ -26,7 +26,7 @@
                             </div>
                             <div class="choose">
                                 <ul class="nav nav-pills nav-justified">
-                                    <li><a href="#"><i class="fa fa-plus-square"></i>ウィッシュリストに追加</a></li>
+                                    <li><a href="#"><i class="fa fa-plus-square"></i>お買い物リストに追加</a></li>
                                     <!-- <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li> -->
                                 </ul>
                             </div>
