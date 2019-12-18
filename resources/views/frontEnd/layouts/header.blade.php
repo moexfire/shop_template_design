@@ -41,37 +41,42 @@
                     <div class="btn-group">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                USA
+                                日本
                                 <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <!-- <ul class="dropdown-menu">
                                 <li><a href="#">Canada</a></li>
                                 <li><a href="#">UK</a></li>
-                            </ul>
+                            </ul> -->
+                            <!-- <select class="custom-select usa btn">
+                                <option>Canada</option>
+                                <option>UK</option>
+                            </select>
+                            <span class="caret"></span> -->
                         </div>
 
                         <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                DOLLAR
+                                ¥
                                 <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
+                            <!-- <ul class="dropdown-menu">
                                 <li><a href="#">Canadian Dollar</a></li>
                                 <li><a href="#">Pound</a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="{{url('/viewcart')}}"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                            <li><a href="{{url('/viewcart')}}"><i class="fa fa-shopping-cart"></i>カート</a></li>
                             @if(Auth::check())
-                            <li><a href="{{url('/myaccount')}}"><i class="fa fa-user"></i> My Account</a></li>
-                            <li><a href="{{ url('/logout') }}"><i class="fa fa-lock"></i> Logout </a>
+                            <li><a href="{{url('/myaccount')}}"><i class="fa fa-user"></i>マイアカウント</a></li>
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-lock"></i> ログアウト </a>
                             </li>
                             @else
-                            <li><a href="{{url('/login_page')}}"><i class="fa fa-lock"></i> Login</a></li>
+                            <li><a href="{{url('/login_page')}}"><i class="fa fa-lock"></i> ログイン</a></li>
                             @endif
                         </ul>
                     </div>
@@ -97,20 +102,20 @@
                     <div class="mainmenu pull-left">
                         <ul class="nav navbar-nav collapse navbar-collapse">
                             <li><a href="{{url('/')}}" class="active">Home</a></li>
-                            <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                            <li class="dropdown"><a href="#">ショップ<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
-                                    <li><a href="{{url('/list-products')}}">Products</a></li>
-                                    <li><a href="{{url('/myaccount')}}">Account</a></li>
-                                    <li><a href="{{url('/viewcart')}}">Cart</a></li>
+                                    <li><a href="{{url('/list-products')}}">製品</a></li>
+                                    <li><a href="{{url('/myaccount')}}">アカウント</a></li>
+                                    <li><a href="{{url('/viewcart')}}">カート</a></li>
                                 </ul>
                             </li>
-                            <li><a href="https://www.youtube.com/channel/UCH2Ir7rPaRN8ZPL9mSpclhw" target="_blank">Contact</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCH2Ir7rPaRN8ZPL9mSpclhw" target="_blank">お問い合わせ</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-5">
                     <div class="search_box pull-right">
-                        <input type="text" placeholder="Search" />
+                        <input type="text" placeholder="商品名を入力してください" />
                     </div>
                 </div>
             </div>

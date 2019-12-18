@@ -6,13 +6,13 @@
                 <div class="col-sm-2">
                     <div class="companyinfo">
                         <h2><span>e</span>-MAIMAI</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p> -->
                     </div>
                 </div>
                 <div class="col-sm-7">
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=ed4BQFeaNCw">
                                 <div class="iframe-img">
                                     <img src="{{asset('frontEnd/images/home/iframe5.png')}}" alt="" />
                                 </div>
@@ -20,14 +20,14 @@
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>バリ島 - インドネシア</p>
+                            <h2>バリダンス</h2>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=OKky3rdSFV4">
                                 <div class="iframe-img">
                                     <img src="{{asset('frontEnd/images/home/iframe6.png')}}" alt="" />
                                 </div>
@@ -35,14 +35,14 @@
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>バリ島 - インドネシア</p>
+                            <h2>バロンダンス</h2>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=hVECwO2RkaY">
                                 <div class="iframe-img">
                                     <img src="{{asset('frontEnd/images/home/iframe7.png')}}" alt="" />
                                 </div>
@@ -50,8 +50,8 @@
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>バリ島 - インドネシア</p>
+                            <h2>ガルーダ・ヴィスヌ・ケンカナ</h2>
                         </div>
                     </div>
 
@@ -65,8 +65,8 @@
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>バリ島 - インドネシア</p>
+                            <h2>Beach Spot</h2>
                         </div>
                     </div>
                 </div>
@@ -85,59 +85,57 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>Service</h2>
+                        <h2>サービス</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Online Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Order Status</a></li>
-                            <li><a href="#">Change Location</a></li>
-                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">カスタマーサポート</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <li><a href="#">注文状況</a></li>
+                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>Quock Shop</h2>
+                        <h2>クイックショップ</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Jewelry & Accesories</a></li>
-                            <li><a href="#">Art & Collectibles</a></li>
-                            <li><a href="#">Home Furniture</a></li>
-                            <li><a href="#">WOODEN HANDICRAFT</a></li>
-                            <li><a href="#">BAGS & PURSES</a></li>
+                            <li><a href="#">ジュエリー・アクセサリー</a></li>
+                            <li><a href="#">アート・グッズ</a></li>
+                            <li><a href="#">ホームの家具</a></li>
+                            <li><a href="#">木製ハンディクラフト</a></li>
+                            <li><a href="#">バッグ・財布</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>Policies</h2>
+                        <h2>ポリシー</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privecy Policy</a></li>
-                            <li><a href="#">Refund Policy</a></li>
-                            <li><a href="#">Billing System</a></li>
-                            <li><a href="#">Ticket System</a></li>
+                            <li><a href="#">利用規約</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                            <li><a href="#">返金について</a></li>
+                            <li><a href="#">チケットシステム</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-widget">
-                        <h2>About MAIMAI</h2>
+                        <h2>MAIMAIについて</h2>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Company Information</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Store Location</a></li>
-                            <li><a href="#">Affillate Program</a></li>
-                            <li><a href="#">Copyright</a></li>
+                            <li><a href="#">会社概要</a></li>
+                            <li><a href="#">キャリア</a></li>
+                            <li><a href="#">店の場所</a></li>
+                            <li><a href="#">プログラム</a></li>
+                            <li><a href="#">著作権</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-3 col-sm-offset-1">
                     <div class="single-widget">
-                        <h2>About MAIMAI</h2>
+                        <h2>MAIMAIについて</h2>
                         <form action="#" class="searchform">
-                            <input type="text" placeholder="Your email address" />
+                            <input type="text" placeholder="メールアドレス" />
                             <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-                            <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                            <p>最新のアップデートを入手する</p>
                         </form>
                     </div>
                 </div>

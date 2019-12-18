@@ -57,7 +57,7 @@
                             </span><br>
                             <span>
                                 <span id="dynamic_price">US ${{$detail_product->price}}</span>
-                                <label>Quantity:</label>
+                                <label>数量:</label>
                                 <input type="text" name="quantity" value="{{$totalStock}}" id="inputStock" />
                                 @if($totalStock>0)
                                 <button type="submit" class="btn btn-fefault cart" id="buttonAddToCart">
@@ -66,14 +66,14 @@
                                 </button>
                                 @endif
                             </span>
-                            <p><b>Availability:</b>
+                            <p><b>購入可能:</b>
                                 @if($totalStock>0)
                                 <span id="availableStock">In Stock</span>
                                 @else
                                 <span id="availableStock">Out of Stock</span>
                                 @endif
                             </p>
-                            <p><b>Condition:</b> New</p>
+                            <p><b>コンディション:</b> 新品</p>
                             <a href=""><img src="{{asset('frontEnd/images/product-details/share.png')}}" class="share img-responsive" alt="" /></a>
                         </div>
                         <!--/product-information-->
