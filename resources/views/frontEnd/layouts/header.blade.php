@@ -70,7 +70,8 @@
                 <div class="col-sm-6">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="{{url('/viewcart')}}"><i class="fa fa-shopping-cart"></i>カート</a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i>カート</a></li>
+                            <!-- <li><a href="{{url('/viewcart')}}"><i class="fa fa-shopping-cart"></i>カート</a></li> -->
                             @if(Auth::check())
                             <li><a href="{{url('/myaccount')}}"><i class="fa fa-user"></i>マイアカウント</a></li>
                             <li><a href="{{ url('/logout') }}"><i class="fa fa-lock"></i> ログアウト </a>
@@ -106,10 +107,12 @@
                                 <ul role="menu" class="sub-menu">
                                     <li><a href="{{url('/list-products')}}">製品</a></li>
                                     <li><a href="{{url('/myaccount')}}">アカウント</a></li>
-                                    <li><a href="{{url('/viewcart')}}">カート</a></li>
+                                    <li><a href="#">カート</a></li>
+                                    <!-- <li><a href="{{url('/viewcart')}}">カート</a></li> -->
                                 </ul>
                             </li>
-                            <li><a href="https://www.youtube.com/channel/UCH2Ir7rPaRN8ZPL9mSpclhw" target="_blank">お問い合わせ</a></li>
+                            <li><a href="#">お問い合わせ</a></li>
+                            <!-- <li><a href="#" target="_blank">お問い合わせ</a></li> -->
                         </ul>
                     </div>
                 </div>

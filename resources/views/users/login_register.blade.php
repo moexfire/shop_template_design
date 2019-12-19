@@ -14,7 +14,8 @@
             <div class="login-form">
                 <!--login form-->
                 <h2>ログインアカウント</h2>
-                <form action="{{url('/user_login')}}" method="post" class="form-horizontal">
+                <form action="#" method="#" class="form-horizontal">
+                    <!-- <form action="{{url('/user_login')}}" method="post" class="form-horizontal"> -->
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <input type="email" placeholder="メールアドレス" name="email" />
                     <input type="password" placeholder="パスワード" name="password" />
@@ -34,7 +35,8 @@
             <div class="signup-form">
                 <!--sign up form-->
                 <h2>会員登録</h2>
-                <form action="{{url('/register_user')}}" method="post" class="form-horizontal">
+                <form action="#" method="#" class="form-horizontal">
+                    <!-- <form action="{{url('/register_user')}}" method="post" class="form-horizontal"> -->
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
 
                     <input type="text" placeholder="氏名" name="name" value="{{old('name')}}" />
